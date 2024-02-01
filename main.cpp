@@ -47,11 +47,11 @@ int main(void) {
             for (int i = 0; i < zooFill; i++) {
                 zoo[i]->print();
             }
-            } else if (choice == 3) {
+        } else if (choice == 3) {
             exit = false;
-            break;
         } else {
             cout << "Choose a correct option !";
+            choice = 0;
         }
         
     }
